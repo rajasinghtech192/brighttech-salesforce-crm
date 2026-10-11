@@ -1,60 +1,75 @@
 # Data Discovery
 
-## Objective
+## 1. Purpose
+Data discovery identifies the information required to manage leads, customers, sales opportunities, and follow-up activities in BrightTech Solutions.
 
-Review the source sales data before importing it into Salesforce and identify the key entities, fields, relationships, and data-quality considerations.
+## 2. Data Sources
+The project uses sample records created in a Salesforce CRM learning environment. The records are intended for demonstration and documentation.
 
-## Source Data Areas
+## 3. Data Categories
 
-The project data included information related to:
+### 3.1 Lead Data
+Relevant fields include:
+- Lead Name
+- Company
+- Email and Phone, where provided
+- Lead Status
+- Lead Source, where available
 
-- Accounts
-- Contacts
-- Opportunities
-- Products
-- Opportunity Products
-- Sales information
-
-## Key Data Elements
-
-### Account
+### 3.2 Account Data
+Relevant fields include:
 - Account Name
-- Account information
+- Account Type, where used
+- Industry, where provided
+- Phone and Address, where provided
 
-### Contact
-- Contact information
-- Account relationship
+### 3.3 Contact Data
+Relevant fields include:
+- Contact Name
+- Account Name
+- Email and Phone, where provided
+- Contact Role or Title, where provided
 
-### Opportunity
+### 3.4 Opportunity Data
+Relevant fields include:
 - Opportunity Name
-- Opportunity Owner
-- Account
+- Related Account
 - Stage
 - Amount
-- Probability
 - Close Date
+- Opportunity Owner
+- Next Step
 
-### Product
-- Product Name
-- Product information
+### 3.5 Activity Data
+Relevant fields include:
+- Task Subject
+- Assigned User
+- Related Contact or Lead
+- Due Date
+- Status
+- Priority, where used
 
-### Opportunity Product
-- Opportunity
-- Product
-- Quantity
-- Sales Price
-- Total Price
+## 4. Sample Records
 
-## Data Quality Review
+| Record Type | Sample Record |
+|---|---|
+| Account | BrightTech Solutions |
+| Contact | Rahul Sharma |
+| Opportunity | BrightTech CRM Software Deal |
+| Opportunity Stage | Qualify |
+| Opportunity Amount | ₹2,50,000 |
+| Next Step | Schedule product demo with customer |
+| Task | Follow Up Call |
 
-The source data was reviewed to identify:
+## 5. Data Quality Considerations
+- Use consistent names and field formats.
+- Avoid duplicate customer records.
+- Associate contacts and opportunities with the correct accounts.
+- Verify dates, amounts, and stages before reporting.
+- Use only appropriate sample data in screenshots.
 
-- Missing values
-- Duplicate or inconsistent records
-- Field-format differences
-- Relationship requirements
-- Product and opportunity data consistency
+## 6. Findings
+The sample records demonstrate how Salesforce can connect customer information with sales opportunities and follow-up activities.
 
-## Outcome
-
-The data-discovery process provided the basis for mapping the source data to Salesforce objects and fields before CRM configuration and migration.
+## 7. Limitations
+The dataset is small and created for learning purposes. It is not sufficient to draw conclusions about real-world sales performance or forecast accuracy.
