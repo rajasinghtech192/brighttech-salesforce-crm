@@ -1,48 +1,54 @@
 # Business Requirements
 
-## Project Objective
+## 1. Project Objective
+Develop and document a Salesforce CRM solution for BrightTech Solutions to organize customer information, track sales opportunities, manage follow-up activities, and monitor sales pipeline performance.
 
-Build a Salesforce CRM solution to manage customer and sales data and provide visibility into the opportunity pipeline and revenue performance.
+## 2. Business Problem
+Without a centralized CRM, sales teams may struggle to maintain customer information, track opportunity progress, and follow up with potential customers on time.
 
-## Business Requirements
+## 3. Business Requirements
 
-### 1. Customer Management
-- Maintain Accounts and Contacts in a centralized CRM.
-- Store relevant customer information in structured Salesforce records.
+### 3.1 Lead Management
+- Store information about potential customers.
+- Maintain lead names, companies, and relevant contact information.
+- Support the process of converting qualified leads.
 
-### 2. Opportunity Management
-- Track sales opportunities through different stages.
-- Capture opportunity amount, close date, probability, owner, and related account information.
-- Track Won and Lost opportunities.
+### 3.2 Customer Management
+- Maintain customer accounts and contacts.
+- Associate contacts with the appropriate accounts.
+- Keep customer information organized in Salesforce.
 
-### 3. Product Management
-- Maintain Products and Price Books.
-- Associate products with opportunities through Opportunity Products.
-- Track product quantity, sales price, and total price.
+### 3.3 Opportunity Management
+- Create sales opportunities associated with customer accounts.
+- Track opportunity stages, amounts, and expected close dates.
+- Record the next action required for each opportunity.
 
-### 4. Sales Performance
-The CRM should provide visibility into:
-- Opportunities by Stage
-- Won vs Lost Opportunities
-- Opportunities by Sales Agent
-- Revenue by Product
+### 3.4 Follow-Up Management
+- Create tasks for calls, meetings, and other follow-up activities.
+- Assign tasks to the responsible user.
+- Track task status and outstanding activities.
 
-### 5. Reporting & Dashboard
-Create Salesforce reports and a dashboard to monitor sales pipeline, revenue, opportunity outcomes, product performance, and sales-agent performance.
+### 3.5 Reporting
+- Generate an opportunities report.
+- Review opportunity amounts, stages, account names, and close dates.
+- Use report data to understand the current sales pipeline.
 
-## Project Scope
+## 4. Sample Business Scenario
+BrightTech Solutions is tracking a sample opportunity worth ₹2,50,000. The opportunity is at the Qualify stage, and the next step is to schedule a product demonstration.
 
-**Included:**
-- Salesforce CRM configuration
-- Data mapping and migration
-- Account and Contact management
-- Opportunity management
-- Product and Price Book configuration
-- Opportunity Products
-- Reports
-- Dashboard
-- Data validation
+## 5. Expected Benefits
+- Better organization of customer information.
+- Improved visibility into opportunity progress.
+- More structured follow-up activities.
+- Easier access to sales pipeline information.
+- Better support for business decisions.
 
-## Project Type
+## 6. Project Scope
+The project focuses on standard Salesforce CRM features, including Leads, Accounts, Contacts, Opportunities, Tasks, and Reports. Additional features will be included only if they are implemented and tested.
 
-Self-Directed / Portfolio Project
+## 7. Acceptance Criteria
+- Sample customer records can be accessed in Salesforce.
+- A qualified lead can be converted where the required conditions are met.
+- An opportunity contains relevant sales information.
+- Follow-up activities can be recorded.
+- A sales opportunities report can display the available opportunity data.
