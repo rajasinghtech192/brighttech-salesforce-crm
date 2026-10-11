@@ -1,88 +1,54 @@
-# Salesforce Reports
+# Salesforce Configuration
 
-## Objective
+## 1. Purpose
+This section documents the Salesforce Lightning configuration and standard CRM features used in the BrightTech Solutions project.
 
-Create Salesforce reports to provide visibility into sales pipeline, opportunity outcomes, sales-agent performance, and product revenue.
+## 2. Platform
+- CRM Platform: Salesforce
+- User Interface: Salesforce Lightning Experience
+- Environment: Salesforce learning or trial org
 
-## Reports Created
+## 3. Configuration Areas
 
-### 1. Opportunities by Stage
+### 3.1 Leads
+Sample lead records were created to demonstrate how potential customers can be managed before conversion.
 
-**Purpose:** Monitor the number of opportunities at each stage of the sales pipeline.
+### 3.2 Accounts and Contacts
+The BrightTech Solutions account and the Rahul Sharma contact were used to demonstrate customer organization and contact management.
 
-**Grouping:**
-- Opportunity Stage
+### 3.3 Opportunities
+The sample opportunity `BrightTech CRM Software Deal` was created to demonstrate sales pipeline tracking.
 
-**Measure:**
-- Record Count
+Sample opportunity details:
+- Account: BrightTech Solutions
+- Stage: Qualify
+- Amount: ₹2,50,000
+- Close Date: 31 December 2026
+- Next Step: Schedule product demo with customer
 
-**Business Use:**
-Helps identify how opportunities are distributed across the sales process.
+### 3.4 Tasks and Activities
+A task named `Follow Up Call` was created to demonstrate activity tracking and sales follow-up.
 
----
+### 3.5 Reports
+An opportunities report was prepared to display sales pipeline information, including the opportunity owner, account, stage, amount, close date, and next step.
 
-### 2. Won vs Lost
+## 4. Implementation Procedure
+1. Open Salesforce Lightning Experience.
+2. Create or review sample lead records.
+3. Convert an eligible lead where appropriate.
+4. Review the resulting account and contact.
+5. Create or review an opportunity associated with the account.
+6. Record follow-up activities.
+7. Create and review an opportunities report.
+8. Capture screenshots of the verified implementation.
 
-**Purpose:** Compare closed opportunities based on their final outcome.
+## 5. Validation Checklist
+- [ ] Sample lead records are available.
+- [ ] Account and contact records are linked correctly.
+- [ ] Opportunity details are correct.
+- [ ] Follow-up task is recorded.
+- [ ] Opportunities report displays the expected fields.
+- [ ] Screenshots match the current Salesforce environment.
 
-**Grouping:**
-- Opportunity Stage
-
-**Filter:**
-- Closed Won
-- Closed Lost
-
-**Measure:**
-- Record Count
-
-**Business Use:**
-Provides a quick view of the balance between won and lost opportunities.
-
----
-
-### 3. Opportunities by Sales Agent
-
-**Purpose:** Analyse opportunity performance by sales representative.
-
-**Grouping:**
-- Opportunity Owner / Sales Agent
-
-**Measure:**
-- Sum of Opportunity Amount
-
-**Business Use:**
-Helps compare the sales pipeline and opportunity value associated with different sales agents.
-
----
-
-### 4. Revenue by Product
-
-**Purpose:** Analyse sales revenue associated with individual products.
-
-**Grouping:**
-- Product Name
-
-**Measure:**
-- Sum of Total Price
-
-**Business Use:**
-Helps identify products generating higher revenue and supports product-performance analysis.
-
-## Reporting Approach
-
-The reports were designed around key sales-performance questions:
-
-| Business Question | Report |
-|---|---|
-| Where are opportunities in the sales process? | Opportunities by Stage |
-| How many opportunities were won or lost? | Won vs Lost |
-| Which sales agents have higher opportunity value? | Opportunities by Sales Agent |
-| Which products generate more revenue? | Revenue by Product |
-
-## Outcome
-
-The reports provide structured sales insights that can be combined into a Salesforce dashboard for management-level performance monitoring.
-
-## Project Type
-
-Self-Directed / Portfolio Project
+## 6. Limitations
+This documentation describes standard CRM functionality. Custom flows, validation rules, automation, integrations, and advanced dashboards should be listed only after they have been configured and tested.
