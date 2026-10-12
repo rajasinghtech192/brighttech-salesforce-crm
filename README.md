@@ -1,91 +1,146 @@
-# Salesforce CRM Implementation
+# BrightTech Solutions — Salesforce CRM Implementation
 
 ## Project Overview
 
-A self-directed Salesforce CRM implementation project focused on managing customer and sales data, improving visibility into the opportunity pipeline, and creating reporting and dashboard views for sales performance analysis.
+A self-directed Salesforce CRM implementation project focused on managing customer information, tracking sales opportunities, organising follow-up activities, and analysing sales pipeline data using Salesforce Lightning Experience.
 
 ## Business Objective
 
-Build a structured CRM solution that supports:
+Develop a structured CRM solution for BrightTech Solutions that supports:
 
-- Customer and sales data management
-- Opportunity pipeline visibility
-- Data organisation and mapping
-- Sales reporting
-- Performance analysis through dashboards
+- Lead management and lead conversion
+- Account and contact management
+- Opportunity tracking and sales pipeline visibility
+- Follow-up task management
+- Sales reporting and data analysis
+- Improved organisation of customer and sales information
+
+## Tools and Technologies
+
+- Salesforce Lightning Experience
+- Salesforce Reports
+- GitHub
+- Markdown
 
 ## Project Structure
 
-### 01 – Business Requirements
-Defined the project objective, business requirements, CRM scope, and expected outcomes.
+### 01 — Business Requirements
 
-### 02 – Data Discovery
-Reviewed the available sales data and identified the key information required for CRM implementation and reporting.
+Documented the business problem, project objectives, CRM scope, customer management requirements, and expected outcomes.
 
-### 03 – Data Mapping
-Mapped source sales data to appropriate Salesforce objects and fields to support consistent CRM data management.
+### 02 — Data Discovery
 
-### 04 – Salesforce Configuration
-Configured the Salesforce CRM environment and structured the required CRM objects and fields.
+Identified the information required to manage leads, accounts, contacts, opportunities, and follow-up activities.
 
-### 05 – Reports
-Created reports to analyse:
+### 03 — Data Mapping
 
-- Opportunities by Stage
-- Won vs Lost Opportunities
-- Revenue by Product
-- Opportunities by Sales Agent
+Documented Salesforce objects, important fields, and relationships between customer records and sales opportunities.
 
-### 06 – Dashboard
-Created a Sales Performance Dashboard combining key CRM metrics and report views.
+### 04 — Salesforce Configuration
 
-## Dashboard
+Configured and reviewed sample Salesforce records to demonstrate customer management, lead conversion, opportunity tracking, and activity management.
 
-The Sales Performance Dashboard provides a consolidated view of:
+### 05 — Reports
 
-- Opportunity pipeline by stage
-- Won vs Lost opportunities
-- Revenue by product
-- Opportunities by sales agent
+Documented Salesforce reports used to review lead information and sales opportunities.
 
-![Sales Performance Dashboard](screenshots/sales-performance-dashboard.png)
+Reporting objectives include:
 
-## Reports
+- Lead status analysis
+- Opportunity pipeline overview
+- Opportunity amount and close date tracking
+- Sales follow-up monitoring
 
-### Opportunities by Stage
+### 06 — Dashboard
 
-![Opportunities by Stage](screenshots/opportunities-by-stage.png)
+Planned a Sales Performance Dashboard to present key sales pipeline information. Dashboard details will be added after implementation and verification.
 
-### Won vs Lost
+## Salesforce CRM Screenshots
 
-![Won vs Lost](screenshots/won-vs-lost.png)
+### 1. Leads Management
 
-### Revenue by Product
+Displays sample lead records, company information, lead status, and lead ownership.
 
-![Revenue by Product](screenshots/revenue-by-product.png)
+![Leads Management](screenshots/leads.png)
 
-### Opportunities by Sales Agent
+### 2. Lead Status Report
 
-![Opportunities by Sales Agent](screenshots/opportunities-by-sales-agent.png)
+Shows a Salesforce report with a chart summarising lead status and a table of lead records.
+
+![Lead Status Report](screenshots/leads-report.png)
+
+### 3. Account Management
+
+Displays the BrightTech Solutions account record in Salesforce.
+
+![Account Management](screenshots/account.png)
+
+### 4. Contact Management
+
+Shows the Rahul Sharma contact record and its association with BrightTech Solutions.
+
+![Contact Management](screenshots/contact.png)
+
+### 5. Opportunity Management
+
+Displays the BrightTech CRM Software Deal opportunity and its sales information.
+
+![Opportunity Management](screenshots/opportunity.png)
+
+### 6. Follow-Up Task Management
+
+Demonstrates a Follow Up Call task assigned to a Salesforce user and related to the customer and opportunity.
+
+![Follow-Up Task](screenshots/follow-up-task.png)
+
+## Sample Business Scenario
+
+The project uses a sample sales opportunity to demonstrate opportunity tracking.
+
+| Field | Sample Value |
+|---|---|
+| Account | BrightTech Solutions |
+| Contact | Rahul Sharma |
+| Opportunity | BrightTech CRM Software Deal |
+| Stage | Qualify |
+| Amount | ₹2,50,000 |
+| Close Date | 31 December 2026 |
+| Next Step | Schedule product demo with customer |
+
+The opportunity amount represents a potential deal value, not confirmed revenue.
 
 ## Skills Demonstrated
 
-- CRM implementation
-- Salesforce configuration
-- Data discovery
-- Data mapping
-- CRM reporting
-- Dashboard development
-- Sales pipeline analysis
+- Salesforce CRM fundamentals
+- Lead and customer management
+- Account and contact management
+- Opportunity tracking
+- Task and activity management
+- CRM data organisation
+- Salesforce reporting
 - Business requirements documentation
-- Data-driven decision support
+- Sales pipeline analysis
+- Technical documentation using GitHub
 
-## Tools
+## Project Outcomes
 
-- Salesforce
-- GitHub
-- Markdown
+The project demonstrates how Salesforce can centralise customer records, connect contacts with accounts, track potential sales, organise follow-up activities, and provide visibility into sales information.
+
+## Future Improvements
+
+- Implement and document a Sales Performance Dashboard.
+- Add more sample opportunities for richer analysis.
+- Develop additional sales reports and visualisations.
+- Document testing and any automation features that are implemented.
 
 ## Project Type
 
 Self-directed / Portfolio Project
+
+## Author
+
+Raja Singh
+
+## Note
+
+This is a learning and portfolio project using sample business records. The documentation describes features implemented and verified in the Salesforce environment.
